@@ -1,3 +1,4 @@
+meshctl demo istio-multicluster cleanup
 kind delete cluster --name kind-mgmt-cluster
 kind delete cluster --name mgmt-cluster
 kubectl config delete-context kind-mgmt-cluster
